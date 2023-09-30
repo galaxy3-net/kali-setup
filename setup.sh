@@ -9,7 +9,7 @@ sudo apt-get upgrade -y
 git clone git clone https://github.com/Dewalt-arch/pimpmykali
 cd pimpmykali && sudo ./pimpmykali.sh
 
-cat <<_EOD__ > ~/.tmux.conf
+cat <<__EOD__ > ~/.tmux.conf
 set -g prefix C-a
 bind C-a send-prefix
 unbind C-b
